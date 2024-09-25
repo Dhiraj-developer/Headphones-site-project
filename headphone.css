@@ -548,7 +548,7 @@ footer {
 }
 }
 
-@media (min-width: 800px){
+@media (min-width: 1100px){
     header {
         background: #333;
         color: #fff;
