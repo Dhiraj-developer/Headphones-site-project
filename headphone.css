@@ -14,7 +14,7 @@ body {
     color: #333;
     overflow-x: hidden;
 }
-@media (width: 375px) {
+@media (max-width: 1024px ){
 
 header {
     background: #333;
@@ -50,8 +50,9 @@ header {
 }
 
 .header-content nav{
-    margin-left: 30px;
-    padding-right: 10px;
+    margin-left: 35%;
+    padding-right: 65px;
+    width: 100%;
 }
 .dropdown {
     position: relative;
@@ -82,8 +83,8 @@ header {
 }
 
 .dropdown-content img {
-    width: 20px; 
-    height: 20px; 
+    width: 50%; 
+    height: 50%; 
 }
 
 .dropdown-content a:hover {
@@ -547,7 +548,7 @@ footer {
 }
 }
 
-@media (min-width: 1280px){
+@media (min-width: 800px){
     header {
         background: #333;
         color: #fff;
